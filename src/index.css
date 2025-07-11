@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.2s ease-in forwards;
+}
+
+.slide-down {
+    animation: slideDown 0.7s ease-out forwards;
+}
+
+.shiny-text {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    color: inherit;
+}
+
+.shiny-text::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgb(255, 255, 255, 0.5),
+        transparent
+    );
+    transform: skewX(-20deg);
+    animation: shine 5s ease-in-out infinite;
+}
+
+@keyframes shine {
+    0% {
+        left: -75%;
+    }
+    100% {
+        left: 125%;
+    }
+}
