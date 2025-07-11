@@ -57,8 +57,8 @@ export default function Specials() {
 
                     <div className="mb-8">
                         <h3 className="text-3xl font-semibold underline">Special Waffle</h3>
+                        <p className="mt-2 italic">The flavor this weekend:</p>
                         <p className="font-bold text-xl">{waffleFlavor}</p>
-                        <p className="mt-2 italic">Different flavors every weekend!</p>
                         {user && <WaffleEditor />}
                     </div>
 
@@ -75,6 +75,21 @@ export default function Specials() {
                         <li className="text-xl font-semibold">• Fish Sandwich</li>
                         <li className="text-xl font-semibold">• Homemade Clam Chowder</li>
                     </ul>
+                </div>
+
+                <div className="flex flex-col items-center gap-6 mt-10 lg:hidden">
+                    <img src="/BluePlate.jpg" className="rounded shadow-md w-3/4 mx-auto mt-4 lg:hidden" alt="Blue Plate" />
+                    <p className="text-red-900 font-semibold text-xl">Blue Plate</p>
+                    <img src="/CinnamonRoll.jpg" className="rounded shadow-md w-3/4 mx-auto mt-4 lg:hidden" alt="Cinnamon Roll" />
+                    <p className="text-red-900 font-semibold text-xl">Homemade Cinnamon Roll</p>
+                    <img src="/CFSandEggs.webp" className="rounded shadow-md w-3/4 mx-auto mt-4 lg:hidden" alt="Country Fried Steak" />
+                    <p className="text-red-900 font-semibold text-xl">Chicken Fried Steak and Eggs</p>
+                    <img src="/ScramMix.jpg" className="rounded shadow-md w-3/4 mx-auto mt-4 lg:hidden" alt="Scram Mix" />
+                    <p className="text-red-900 font-semibold text-xl">Scram Mix</p>
+                    <img src="/HomemadeBiscuits.jpg" className="rounded shadow-md w-3/4 mx-auto mt-4 lg:hidden" alt="Homemade Biscuits" />
+                    <p className="text-red-900 font-semibold text-xl">Homemade Buttermilk Biscuits</p>
+                    <img src="/LuckyLindyDeluxe.jpg" className="rounded shadow-md w-3/4 mx-auto mt-4 lg:hidden" alt="Lucky Lindy Deluxe" />
+                    <p className="text-red-900 font-semibold text-xl">Lucky Lindy Deluxe</p>
                 </div>
 
                 <div className="hidden lg:flex flex-col gap-10 w-1/5">
