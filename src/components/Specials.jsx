@@ -57,8 +57,8 @@ export default function Specials() {
 
                     <div className="mb-8">
                         <h3 className="text-3xl font-semibold underline">Special Waffle</h3>
-                        <p className="mt-2 italic">Different flavors every weekend!</p>
                         <p className="font-bold text-xl">{waffleFlavor}</p>
+                        <p className="mt-2 italic">Different flavors every weekend!</p>
                         {user && <WaffleEditor />}
                     </div>
 
