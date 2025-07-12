@@ -1,6 +1,7 @@
 export default function Hero() {
   return (
-    <section className="relative flex flex-col items-center bg-red-900 h-[900px] md:h-[500px] overflow-hidden text-center px-4 py-20 text-yellow-50">
+    <section 
+      className="relative flex flex-col  items-center bg-red-900 h-[900px] md:h-[500px] overflow-hidden text-center px-4 py-20 text-yellow-50">
       <div 
         className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[800px] h-[300px] bg-yellow-50 flex justify-center items-center slide-down"
         style={{ clipPath: 'polygon(50% 100%, 0 0, 100% 0)' }}
@@ -41,7 +42,10 @@ export default function Hero() {
           </div>
         </address>
       </div>
-          <p className="italic text-xl mt-8 fade-in">"Family owned since 1993"</p>
+      <div>
+          <p className="italic text-2xl mt-8 fade-in font-semibold">"Family owned since 1993"</p>
+          
+      </div>
     </section>
   )
 }
