@@ -4,11 +4,11 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-2 flex items-center justify-between">
                 <img 
                     src="/Hidden Cafe-Logo(3).png" 
-                    className="h-15 w-auto" 
+                    className="h-14 w-auto" 
                     alt="Logo" 
                 />
 
-                <div className="text-center items-center flex-1">
+                <div className="text-center text-xs items-center flex-1">
                     <p>Made with 🧡 by Kaylynn Satchell</p>
                     <div className="mt-1 text-xs opacity-30 hover:opacity-100 transition">
                         <a href="/login" className="underline">Staff Login</a>
