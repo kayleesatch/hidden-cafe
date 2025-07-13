@@ -93,11 +93,12 @@ export default function Specials() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {[
                         {src: "/CinnamonRoll.jpg",  alt: "Cinnamon Roll", label: "Homemade Cinnamon Roll"},
-                        {src: "/CFSandEggs.webp", alt: "Country Fried Steak", label: "Country Fried Steak"},
+                        {src: "/CFSandEggs.webp", alt: "Country Fried Steak", label: "Country Fried Steak and Eggs"},
                         {src: "/ScramMix.jpg", alt: "Scram Mix", label: "Scram Mix"},
                         {src: "/HomemadeBiscuits.jpg",  alt: "Homemade Biscuits", label: "Homemade Biscuits"},
                         {src: "/LuckyLindyDeluxe.jpg",  alt: "Lucky Lindy Deluxe", label: "Lucky Lindy Deluxe"},
                         {src: "/BaconEggs.jpg", alt: "Bacon and Eggs", label: "Bacon and Eggs"}
+                        {src: "/HashEggs.jpg", alt: "Hash and Eggs", label: "Corned Beef Hash and Eggs"}
                     ].map((item, index) => (
                         <div
                             key={index}
@@ -106,7 +107,7 @@ export default function Specials() {
                             <img 
                                 src={item.src} 
                                 alt={item.alt}
-                                className="w-full h-auto object-cover"    
+                                className="w-full h-auto object-cover object-center"    
                             />
                             <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <p className="text-white font-semibold-text-xl text-center px-2">{item.label}</p>
