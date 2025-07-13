@@ -97,8 +97,8 @@ export default function Specials() {
                         {src: "/ScramMix.jpg", alt: "Scram Mix", label: "Scram Mix"},
                         {src: "/HomemadeBiscuits.jpg",  alt: "Homemade Biscuits", label: "Homemade Biscuits"},
                         {src: "/LuckyLindyDeluxe.jpg",  alt: "Lucky Lindy Deluxe", label: "Lucky Lindy Deluxe"},
-                        {src: "/BaconEggs.jpg", alt: "Bacon and Eggs", label: "Bacon and Eggs"}
-                        {src: "/HashEggs.jpg", alt: "Hash and Eggs", label: "Corned Beef Hash and Eggs"}
+                        {src: "/BaconEggs.jpg", alt: "Bacon and Eggs", label: "Bacon and Eggs"},
+                        {src: "/HashEggs.jpg", alt: "Hash and Eggs", label: "Corned Beef Hash and Eggs"},
                     ].map((item, index) => (
                         <div
                             key={index}
