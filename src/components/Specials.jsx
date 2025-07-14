@@ -74,7 +74,7 @@ export default function Specials() {
 
                     <div className="text-3xl font-semibold underline">Friday Favorites</div>
                     <ul className="mt-2 space-y-1">
-                        <li className="text-xl font-semibold">• Fish and Chips</li>
+                        <li className="text-xl font-semibold">• Fish N' Chips and Coleslaw</li>
                         <li className="text-xl font-semibold">• Fish Sandwich</li>
                         <li className="text-xl font-semibold">• Homemade Clam Chowder</li>
                         <img src="/FishNChips.jpg" className="rounded shadow-md w-3/4 mx-auto mt-4 lg:hidden" alt="Fish and Chips" />
