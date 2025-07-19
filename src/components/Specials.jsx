@@ -106,6 +106,8 @@ export default function Specials() {
                         {src: "/FullStackTop.jpg", alt: "Full Stack", label: "Full Stack Pancakes"},
                         {src: "/FullStackSide.jpg", alt: "Full Stack", label: "Full Stack Pancakes"},
                         {src: "/GreenChiliChzBurg.jpg", alt: "Green Chili Cheeseburger", label: "Green Chili Cheeseburger"},
+                        {src: "/HalfPoundHamEggs.jpg", alt: "1/2lb Ham and Eggs", label: "1/2 lb Ham and Eggs"},
+                        {src: "/CountryBreakfast.jpg", alt: "Country Breakfast", label: "Country Breakfast"},
                     ].map((item, index) => (
                         <div
                             key={index}
