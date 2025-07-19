@@ -13,9 +13,9 @@ export default function About({ isOpen, onClose }) {
                 <h2 className="text-3xl font-bold underline mb-4 text-center">Welcome To The Hidden Cafe</h2>
                 <p className="text-lg leading-relaxed mb-2">
                     For many years, our family-owned Cafe has been a cozy spot where you can grab a bite to eat and feel at home.
-                    We take pride in making - our country gravy, biscuits, and cinnamon rolls from scratch.  We have and award winning
-                    green chili (yes, we've earned bragging right in a blind taste test!). Every Monday special and dessert, from cakes
-                    and pies to danishes, are lovingly homemade. Though we are small and cozy, The Hidden Cafe is big on heart - a 
+                    We take pride in making - country gravy, biscuits, and cinnamon rolls from scratch.  We have an award winning
+                    green chili (yes, we've earned bragging rights in a blind taste test!). Every week we have a Monday special and desserts, from cakes
+                    and pies to danishes, all of which are lovingly homemade. Though we are small and cozy, the Hidden Cafe is big on flavor and heart - a 
                     place where you can relax, enjoy good food, and feel like part of the family.
                 </p>
             </div>

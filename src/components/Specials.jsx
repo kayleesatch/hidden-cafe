@@ -61,7 +61,6 @@ export default function Specials() {
                         <h3 className="text-3xl font-semibold underline">Special Waffle</h3>
                         <p className="mt-2 italic">The flavor this weekend:</p>
                         <p className="font-bold text-xl">{waffleFlavor}</p>
-                        <img src="/SpecialWaffle.jpg" className="rounded shadow-md w-3/4 mx-auto mt-4 lg:hidden" alt="Special Waffle" />
                         {user && <WaffleEditor />}
                     </div>
 
@@ -83,7 +82,7 @@ export default function Specials() {
 
                 <div className="hidden lg:flex flex-col gap-10 w-1/5">
                     <img src="/ScramMix.jpg" className="rounded shadow-md" alt="Scram Mix" />
-                    <img src="/HomemadeBiscuits.jpg" className="rounded shadow-md" alt="Homemade Biscuits" />
+                    <img src="/HomemadeButtermilkBiscuits.jpg" className="rounded shadow-md" alt="Homemade Biscuits" />
                     <img src="/LuckyLindyDeluxe.jpg" className="rounded shadow-md" alt="Lucky Lindy Deluxe" />
                 </div>
             </div>
@@ -92,13 +91,21 @@ export default function Specials() {
                 <h2 className="text-5xl font-semibold underline text-red-900 text-center mb-10">Gallery</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {[
+                        {src: "/BluePlate.jpg", alt: "Blue Plate", label: "Blue Plate Special"},
+                        {src: "/SpecialOmelette.jpg", alt: "Special Omelette", label: "Special Omelette"},
                         {src: "/CinnamonRoll.jpg",  alt: "Cinnamon Roll", label: "Homemade Cinnamon Roll"},
+                        {src: "/BananaBreadWaffle.jpg", alt: "Banana Bread Waffle", label: "Banana Bread Waffle"},
                         {src: "/CFSandEggs.webp", alt: "Country Fried Steak", label: "Country Fried Steak and Eggs"},
                         {src: "/ScramMix.jpg", alt: "Scram Mix", label: "Scram Mix"},
-                        {src: "/HomemadeBiscuits.jpg",  alt: "Homemade Biscuits", label: "Homemade Biscuits"},
+                        {src: "/HomemadeButtermilkBiscuits.jpg",  alt: "Homemade Biscuits", label: "Homemade Buttermilk Biscuits"},
                         {src: "/LuckyLindyDeluxe.jpg",  alt: "Lucky Lindy Deluxe", label: "Lucky Lindy Deluxe"},
                         {src: "/BaconEggs.jpg", alt: "Bacon and Eggs", label: "Bacon and Eggs"},
                         {src: "/HashEggs.jpg", alt: "Hash and Eggs", label: "Corned Beef Hash and Eggs"},
+                        {src: "FishNChips.jpg", alt: "Fish and Chips", label: "Fish and Chips with Slaw"},
+                        {src: "/ChzBurgAndCupGreen.jpg", alt: "Cheeseburger", label: "Cheeseburger with a cup of Green Chili"},
+                        {src: "/FullStackTop.jpg", alt: "Full Stack", label: "Full Stack Pancakes"},
+                        {src: "/FullStackSide.jpg", alt: "Full Stack", label: "Full Stack Pancakes"},
+                        {src: "/GreenChiliChzBurg.jpg", alt: "Green Chili Cheeseburger", label: "Green Chili Cheeseburger"},
                     ].map((item, index) => (
                         <div
                             key={index}

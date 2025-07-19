@@ -65,6 +65,13 @@ export default function WaffleEditor() {
                     Save
                 </button>
                 <Logout />
+                {flavor === "Banana Bread" && (
+                    <img 
+                        src="/BananaBreadWaffle.jpg"
+                        alt="Banana Bread Waffle"
+                        className="mt-4 w-48 h-auto rounded shadow-lg"    
+                    />
+                )}
             </div>
         )
     )
