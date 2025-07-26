@@ -61,6 +61,19 @@ export default function Specials() {
                         <h3 className="text-3xl font-semibold underline">Special Waffle</h3>
                         <p className="mt-2 italic">The flavor this weekend:</p>
                         <p className="font-bold text-xl">{waffleFlavor}</p>
+
+                        {waffleFlavor && (
+                            <img 
+                                src={
+                                    {
+                                        "Banana Bread": "/BananaBreadWaffle.jpg",
+                                        "Cinnamon Roll": "/CinnRollWaffle.jpg",
+                                    }[waffleFlavor] || "Image coming soon!"
+                                } 
+                                alt={`${waffleFlavor}`} 
+                                className="rounded shadow-md w-3/4 mx-auto mt-4"    
+                            />
+                        )}
                         {user && <WaffleEditor />}
                     </div>
 

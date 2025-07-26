@@ -6,6 +6,18 @@ import Logout from "./Logout";
 
 const allowedEmails = ["kayleesatch@gmail.com", "numberqueeen63@gmail.com"];
 
+const flavorImages = {
+    "Apple Cinnamon": "Image coming soon!",
+    "Banana Bread": "/BananaBreadWaffle.jpg",
+    "Blueberry": "Image coming soon!",
+    "Birthday Cake": "Image coming soon!",
+    "Chocolate": "Image coming soon!",
+    "Cinnamon Roll": "/CinnRollWaffle.jpg",
+    "Maple Cinnamon": "Image coming soon!",
+    "Strawberry": "Image coming soon!",
+    "OTHER": "Sold Out",
+}
+
 export default function WaffleEditor() {
     const [user, setUser] = useState(null);
     const [flavor, setFlavor] = useState("");
@@ -51,24 +63,18 @@ export default function WaffleEditor() {
                     className="px-2 py-1"
                     >
                     <option value="">--Choose Flavor--</option>
-                    <option value="Apple Cinnamon">Apple Cinnamon</option>
-                    <option value="Banana Bread">Banana Bread</option>
-                    <option value="Birthday Cake">Birthday Cake</option>
-                    <option value="Blueberry">Blueberry</option>
-                    <option value="Chocolate">Chocolate</option>
-                    <option value="Cinnamon Roll">Cinnamon Roll</option>
-                    <option value="Maple Cinnamon">Maple Cinnamon</option>
-                    <option value="Strawberry">Strawberry</option>
-                    <option value="OTHER">OTHER</option>
+                    {Object.keys(flavorImages).map((flav) => (
+                        <option key={flav} value={flav}>{flav}</option>
+                    ))}
                 </select>
                 <button onClick={updateFlavor} className="bg-green-600 text-white px-3 py-1">
                     Save
                 </button>
                 <Logout />
-                {flavor === "Banana Bread" && (
+                {flavor && (
                     <img 
-                        src="/BananaBreadWaffle.jpg"
-                        alt="Banana Bread Waffle"
+                        src={flavorImages[flavor] || "Image coming soon!"}
+                        alt={`${flavor}`}
                         className="mt-4 w-48 h-auto rounded shadow-lg"    
                     />
                 )}
