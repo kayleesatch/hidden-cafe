@@ -7,7 +7,7 @@ import Logout from "./Logout";
 const allowedEmails = ["kayleesatch@gmail.com", "numberqueeen63@gmail.com"];
 
 const flavorImages = {
-    "Apple Cinnamon": "Image coming soon!",
+    "Apple Cinnamon": "/AppleCinnWaffle.jpg",
     "Banana Bread": "/BananaBreadWaffle.jpg",
     "Blueberry": "Image coming soon!",
     "Birthday Cake": "Image coming soon!",
@@ -15,7 +15,8 @@ const flavorImages = {
     "Cinnamon Roll": "/CinnRollWaffle.jpg",
     "Maple Cinnamon": "Image coming soon!",
     "Strawberry": "Image coming soon!",
-    "OTHER": "Sold Out",
+    "OTHER": "Other",
+    "SOLD OUT": " "
 }
 
 export default function WaffleEditor() {
