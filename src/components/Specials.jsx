@@ -69,7 +69,8 @@ export default function Specials() {
                                         "Banana Bread": "/BananaBreadWaffle.jpg",
                                         "Cinnamon Roll": "/CinnRollWaffle.jpg",
                                         "Apple Cinnamon": "/AppleCinnWaffle.jpg",
-                                        "Birthday Cake": "/BirthdayWaffle.jpg"
+                                        "Birthday Cake": "/BirthdayWaffle.jpg",
+                                        "Chocolate": "/ChocolateWaffle.jpg"
                                     }[waffleFlavor] || "Image coming soon!"
                                 } 
                                 alt={`${waffleFlavor}`} 

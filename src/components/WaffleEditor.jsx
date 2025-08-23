@@ -11,7 +11,7 @@ const flavorImages = {
     "Banana Bread": "/BananaBreadWaffle.jpg",
     "Blueberry": "Image coming soon!",
     "Birthday Cake": "/BirthdayWaffle.jpg",
-    "Chocolate": "Image coming soon!",
+    "Chocolate": "/ChocolateWaffle.jpg",
     "Cinnamon Roll": "/CinnRollWaffle.jpg",
     "Maple Cinnamon": "Image coming soon!",
     "Strawberry": "Image coming soon!",
