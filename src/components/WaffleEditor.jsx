@@ -17,7 +17,7 @@ const flavorImages = {
     "Pumpkin": "/PumpkinWaffle.jpg",
     "Strawberry": "Image coming soon!",
     "OTHER": "Other",
-    "SOLD OUT": " "
+    "SOLD OUT": "/SoldOut.png"
 }
 
 export default function WaffleEditor() {
