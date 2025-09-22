@@ -9,7 +9,7 @@ const allowedEmails = ["kayleesatch@gmail.com", "numberqueeen63@gmail.com"];
 const flavorImages = {
     "Apple Cinnamon": "/AppleCinnWaffle.jpg",
     "Banana Bread": "/BananaBreadWaffle.jpg",
-    "Blueberry": "Image coming soon!",
+    "Blueberry": "/BlueWaffle.jpg",
     "Birthday Cake": "/BirthdayWaffle.jpg",
     "Chocolate": "/ChocolateWaffle.jpg",
     "Cinnamon Roll": "/CinnRollWaffle.jpg",
