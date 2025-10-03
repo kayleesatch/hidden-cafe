@@ -73,6 +73,7 @@ export default function Specials() {
                                         "Chocolate": "/ChocolateWaffle.jpg",
                                         "Pumpkin": "/PumpkinWaffle.jpg",
                                         "Blueberry": "/BlueWaffle.jpg",
+                                        "Strawberry": "/StrawberryWaffle.jpg",
                                         "SOLD OUT": "/SoldOut.png"
                                     }[waffleFlavor] || "Image coming soon!"
                                 } 
