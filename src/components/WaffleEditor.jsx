@@ -13,7 +13,7 @@ const flavorImages = {
     "Birthday Cake": "/BirthdayWaffle.jpg",
     "Chocolate": "/ChocolateWaffle.jpg",
     "Cinnamon Roll": "/CinnRollWaffle.jpg",
-    "Maple Cinnamon": "Image coming soon!",
+    "Maple Cinnamon": "/MapleCinnWaffle.jpg",
     "Pumpkin": "/PumpkinWaffle.jpg",
     "Strawberry": "/StrawberryWaffle.jpg",
     "OTHER": "Other",

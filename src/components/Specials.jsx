@@ -66,14 +66,15 @@ export default function Specials() {
                             <img 
                                 src={
                                     {
-                                        "Banana Bread": "/BananaBreadWaffle.jpg",
-                                        "Cinnamon Roll": "/CinnRollWaffle.jpg",
                                         "Apple Cinnamon": "/AppleCinnWaffle.jpg",
+                                        "Banana Bread": "/BananaBreadWaffle.jpg",
+                                        "Blueberry": "/BlueWaffle.jpg",
                                         "Birthday Cake": "/BirthdayWaffle.jpg",
                                         "Chocolate": "/ChocolateWaffle.jpg",
-                                        "Pumpkin": "/PumpkinWaffle.jpg",
-                                        "Blueberry": "/BlueWaffle.jpg",
+                                        "Cinnamon Roll": "/CinnRollWaffle.jpg",
+                                        "Maple Cinnamon": "/MapleCinnWaffle.jpg",
                                         "Strawberry": "/StrawberryWaffle.jpg",
+                                        "Pumpkin": "/PumpkinWaffle.jpg",
                                         "SOLD OUT": "/SoldOut.png"
                                     }[waffleFlavor] || "Image coming soon!"
                                 } 
