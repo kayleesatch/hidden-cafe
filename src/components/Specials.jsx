@@ -73,6 +73,8 @@ export default function Specials() {
                                         "Chocolate": "/ChocolateWaffle.jpg",
                                         "Cinnamon Roll": "/CinnRollWaffle.jpg",
                                         "Maple Cinnamon": "/MapleCinnWaffle.jpg",
+                                        "Red Velvet": "Image to come",
+                                        "S'mores": "/public/SmoresWaffle.jpg",
                                         "Strawberry": "/StrawberryWaffle.jpg",
                                         "Pumpkin": "/PumpkinWaffle.jpg",
                                         "SOLD OUT": "/SoldOut.png"

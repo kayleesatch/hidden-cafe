@@ -15,6 +15,8 @@ const flavorImages = {
     "Cinnamon Roll": "/CinnRollWaffle.jpg",
     "Maple Cinnamon": "/MapleCinnWaffle.jpg",
     "Pumpkin": "/PumpkinWaffle.jpg",
+    "Red Velvet": "Image to come soon",
+    "S'mores": "/public/SmoresWaffle.jpg",
     "Strawberry": "/StrawberryWaffle.jpg",
     "OTHER": "Other",
     "SOLD OUT": "/SoldOut.png"
