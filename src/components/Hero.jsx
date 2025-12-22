@@ -1,4 +1,6 @@
 export default function Hero() {
+  const isHolidayClosed = true;
+
   return (
     <section 
       className="relative flex flex-col  items-center bg-red-900 h-[900px] md:h-[500px] overflow-hidden text-center px-4 py-20 text-yellow-50">
@@ -16,14 +18,27 @@ export default function Hero() {
 
       <div className="mt-[220px] md:mt-[100px] w-full max-w-6xl flex flex-col md:flex-row justify-between gap-10 px-4 z-10 fade-in">
         <div className="text-lg space-y-3 text-center md:text-left">
-          <a 
-            href="https://hidden-cafe.hrpos.heartland.us/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block text-yellow-50 font-semibold py-3 rounded hover:underline transition"  
-          >
-            🍳 Order Online
-          </a>
+          {!isHolidayClosed && (
+            <a 
+              href="https://hidden-cafe.hrpos.heartland.us/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-yellow-50 font-semibold py-3 rounded hover:underline transition"  
+            >
+              🍳 Order Online
+            </a>
+          )}
+
+          {isHolidayClosed && (
+            <div className="bg-yellow-50 text-red-900 rounded-lg p-4 max-w-sm mx-auto md:mx-0">
+              <p className="font-bold text-lg"> Closed for the Holidays!</p>
+              <p className="text-sm mt-1">
+                We will reopen and be ready for online orders on <strong>January 2nd</strong>.
+                <br />
+                Thank you for supporting our family business!
+              </p>
+            </div>
+          )}
           <div><a href="tel:+13036788034" className="hover:underline">☎️ (303)678-8034</a></div>
           <div>📍829 Main Street, Suite #5<br /> Longmont, CO 80501</div>
           <p className="font-semibold text-yellow-50">🚫 NO RESERVATIONS -<br /> FIRST COME, FIRST SERVED!</p>
