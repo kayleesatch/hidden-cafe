@@ -1,5 +1,5 @@
 export default function Hero() {
-  const isHolidayClosed = true;
+  const isHolidayClosed = false;
 
   return (
     <section 
