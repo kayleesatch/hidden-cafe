@@ -1,5 +1,5 @@
 export default function Hero() {
-  const isHolidayClosed = false;
+  const isHolidayClosed = true;
 
   return (
     <section 
@@ -31,9 +31,9 @@ export default function Hero() {
 
           {isHolidayClosed && (
             <div className="bg-yellow-50 text-red-900 rounded-lg p-4 max-w-sm mx-auto md:mx-0">
-              <p className="font-bold text-lg"> Closed for the Holidays!</p>
+              <p className="font-bold text-lg"> Closed for the Holiday!</p>
               <p className="text-sm mt-1">
-                We will reopen and be ready for online orders on <strong>January 2nd</strong>.
+                We will reopen and be ready for online orders on <strong>Wednesday, May 27th</strong>.
                 <br />
                 Thank you for supporting our family business!
               </p>
